@@ -1,0 +1,27 @@
+ const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
+    const dispatch=useDispatch()
+
+
+    const[book,SetBook]=useState({
+       isnb:'', title:'',author:'',genre:'',language:'',imageUrl:"",location:''
+    })
+
+    const handleDispatch=()=>{
+        const{isnb,title,author,genre,language,imageUrl,location}=book
+        if(!isnb || !title || !author || !genre || !language || !imageUrl || !location)
+        {
+            alert("enter valid inputs")
+        }
+        else{
+          console.log(book);
+          dispatch(addBook(book))
+          handleClose()
+          toast.success("Book added succesfully!")
+
+        }
+        
+    }

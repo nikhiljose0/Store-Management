@@ -1,0 +1,31 @@
+.align-items-center{
+    align-items: center;
+    /* background-image: url('https://cdn.vectorstock.com/i/500p/98/97/image-with-text-and-shoes-vector-12129897.avif'); */
+    /* height: 600px; */
+}
+.d-grid {
+    position: relative;
+    left: 600px;
+}
+.no{
+    background-image: url('https://images.ctfassets.net/2c85gj41xf35/2IZWBTW0iV0i4pJ9u2UY50/6322d42b61df3830dbc8599481770abc/amazon-brand-stores-article?w=1201&h=586&q=70&fm=png&bg=transparent');
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+.store{
+    position: relative;
+    left: 900px;
+}
+.lead{
+    position: relative;
+    left: 900px;
+
+
+}
+.add{
+    position: relative;
+    left: 700px;
+}
